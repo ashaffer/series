@@ -1,5 +1,5 @@
 {
-  "name": "serial",
+  "name": "series",
   "version": "0.1.0",
   "description": "Execute a processing function on a list of items in asynchronously, in series.",
   "main": "index.js",
@@ -11,12 +11,21 @@
     "url": "https://github.com/ashaffer/series"
   },
   "keywords": [
-    "serial"
+    "series",
+    "serial",
+    "async"
   ],
   "author": "ashaffer (http://github.com/ashaffer)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ashaffer/series/issues"
   },
-  "homepage": "https://github.com/ashaffer/series"
+  "homepage": "https://github.com/ashaffer/series",
+  "devDependencies": {
+    "mocha": "^2.2.0",
+    "sinon": "^1.13.0"
+  },
+  "dependencies": {
+    "once-component": "0.0.1"
+  }
 }

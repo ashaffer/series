@@ -1,0 +1,22 @@
+{
+  "name": "serial",
+  "version": "0.1.0",
+  "description": "Execute a processing function on a list of items in asynchronously, in series.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashaffer/series"
+  },
+  "keywords": [
+    "serial"
+  ],
+  "author": "ashaffer (http://github.com/ashaffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashaffer/series/issues"
+  },
+  "homepage": "https://github.com/ashaffer/series"
+}
